@@ -1,0 +1,11 @@
+[Unit]
+Description=CAN Logger
+
+[Service]
+Type=idle
+ExecStart=/home/pi/CANLogger/main.py
+WorkingDirectory=/home/pi/CANLogger/
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
