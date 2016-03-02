@@ -19,8 +19,6 @@ Here is a good How To :
 <https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi/>
 
 
-```
-
 ## Start
 ```sh
 ./main.py
